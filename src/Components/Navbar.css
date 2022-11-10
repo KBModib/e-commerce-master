@@ -1,5 +1,5 @@
 .navbar{
-    background-color: #fff;
+    background-color: whitesmoke;
     color: #000;
     padding: 20px;
     display: flex;
@@ -12,7 +12,6 @@
     padding: 10px;
     justify-content: space-between;
 }
-
 .leftside h4 {
     margin-left: 50px;
     font-weight: 500;
@@ -23,4 +22,23 @@
 }
 .navlink{
     color: black;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 5px;
+}
+.navlink:hover{
+    text-decoration: underline;
+    color: rgb(226, 135, 135);
+}
+.navlink:active { 
+    text-decoration: underline;
+    color: rgb(168, 99, 99);
+}
+
+.proflink{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    margin-right: 50px;
+    cursor: pointer;
 }
